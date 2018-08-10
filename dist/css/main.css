@@ -1,3 +1,28 @@
+.menu-btn {
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.4s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    transition: all 0.4s ease-out; }
+  .menu-btn.close {
+    transform: rotate(180deg); }
+    .menu-btn.close .btn-line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px); }
+    .menu-btn.close .btn-line:nth-child(2) {
+      opacity: 0; }
+    .menu-btn.close .btn-line:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -6px); }
+
+.menu-btn:hover .btn-line {
+  background: #1e83bd; }
+
 * {
   box-sizing: border-box; }
 
@@ -59,7 +84,7 @@ main {
       padding: 0.6rem; }
       main .icons a :hover {
         color: #1e83bd;
-        transition: all 1s ease-out; }
+        transition: all 0.4s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
