@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_page",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taraldjoh/Portfolio_page.git"
+  },
+  "author": "Tarald Johansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taraldjoh/Portfolio_page/issues"
+  },
+  "homepage": "https://github.com/taraldjoh/Portfolio_page#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
