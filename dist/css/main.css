@@ -3,6 +3,10 @@
   --secondary-color: #444;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -54,6 +58,23 @@ header {
   color: #1e83bd;
 }
 
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #f4f4f4;
+  color: var(--secondary-color);
+  text-decoration: none;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
 /* Menu/Navigation bar */
 .menu-btn {
   position: absolute;
@@ -229,6 +250,11 @@ body#bg-img:after {
   margin-left: 2rem;
 }
 
+#home .home-content .nextPage {
+  text-align: center;
+  margin-top: 8rem;
+}
+
 /* Section: Work */
 #work {
   background: #2b3135;
@@ -255,6 +281,11 @@ body#bg-img:after {
   grid-gap: 1rem;
 }
 
+#work .container .work-container .card {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 #work .container .work-container button {
   width: 100%;
   height: 420px;
@@ -266,6 +297,20 @@ body#bg-img:after {
 #work .container .work-container .work-img-2 {
   background: url(https://source.unsplash.com/95YRwf6CNw8/1600x900) no-repeat
     center center/cover;
+}
+
+#work .container .nextPage {
+  text-align: center;
+  margin-top: 8rem;
+}
+/* About Section */
+#about {
+  height: 100vh;
+}
+
+/* Contact Section */
+#contact {
+  height: 100vh;
 }
 
 .noSelect {
