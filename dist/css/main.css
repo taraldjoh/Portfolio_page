@@ -286,9 +286,24 @@ body#bg-img:after {
   font-size: 1.5rem;
 }
 
+#work .container .work-container .card h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+#work .container .work-container .card p {
+  font-size: 0.75rem;
+}
+
 #work .container .work-container button {
   width: 100%;
   height: 420px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#work .container .work-container button:hover {
+  transform: scale(1.02);
 }
 
 #work .container .work-container .work-img-1 {
