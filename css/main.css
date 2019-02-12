@@ -219,7 +219,7 @@ body#bg-img:after {
 /* Home Section */
 #home {
   height: 100vh;
-  background: url(/dist/img/background.jpg) no-repeat center center/cover;
+  background: url(/img/background.jpg) no-repeat center center/cover;
 }
 #home .home-content {
   height: 100%;
@@ -306,8 +306,12 @@ body#bg-img:after {
   transform: scale(1.02);
 }
 
+#work .container .work-container button:active {
+  border: none;
+}
+
 #work .container .work-container .work-img-1 {
-  background: url(/dist/img/work/areslan.png) center center/cover;
+  background: url(/img/work/areslan.png) center center/cover;
 }
 #work .container .work-container .work-img-2 {
   background: url(https://source.unsplash.com/95YRwf6CNw8/1600x900) no-repeat
