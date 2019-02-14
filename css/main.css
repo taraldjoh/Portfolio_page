@@ -198,7 +198,6 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  overflow: hidden;
 }
 /* body#bg-img {
   background: url(/dist/img/background.jpg);
@@ -258,7 +257,6 @@ body#bg-img:after {
 /* Section: Work */
 #work {
   background: #2b3135;
-  height: 100vh;
 }
 
 #work .container {
@@ -324,12 +322,12 @@ body#bg-img:after {
 }
 /* About Section */
 #about {
-  height: 100vh;
+  
 }
 
 /* Contact Section */
 #contact {
-  height: 100vh;
+  
 }
 
 .noSelect {
