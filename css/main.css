@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #1e83bd;
+  --primary-color: #1c95db;
+  /* Primary color: 1e83bd */
   --secondary-color: #444;
 }
 
@@ -322,12 +323,10 @@ body#bg-img:after {
 }
 /* About Section */
 #about {
-  
 }
 
 /* Contact Section */
 #contact {
-  
 }
 
 .noSelect {
