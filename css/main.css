@@ -191,6 +191,14 @@ header {
   transition-delay: 0.4s;
 }
 
+.icons a {
+  padding: 0.6rem;
+}
+.icons a :hover {
+  color: #1e83bd;
+  transition: all 0.7s ease-out;
+}
+
 /* Home Background */
 body {
   background: #444;
@@ -230,13 +238,7 @@ body#bg-img:after {
   margin-top: 1rem;
   padding-left: 2rem;
 }
-#home .icons a {
-  padding: 0.6rem;
-}
-#home .icons a :hover {
-  color: #1e83bd;
-  transition: all 0.7s ease-out;
-}
+
 #home#home {
   overflow: hidden;
 }
@@ -324,7 +326,7 @@ body#bg-img:after {
 }
 
 #work .container .work-container ul li:nth-child(even) {
-  background: #7007e9;
+  background: var(--primary-color);
 }
 
 #work .container .work-container ul li:nth-child(odd) {
@@ -335,6 +337,13 @@ body#bg-img:after {
   transform: scale(1.05);
 }
 
+#work .container .work-container .card .icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
 #work .container .work-container .work-img-1 {
   background: url(/img/work/areslan.gif) no-repeat center center/cover;
 }
@@ -343,10 +352,6 @@ body#bg-img:after {
     center center/cover;
 }
 
-#work .container .nextPage {
-  text-align: center;
-  margin-top: 8rem;
-}
 /* About Section */
 #about {
 }
