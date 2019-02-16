@@ -285,20 +285,13 @@ body#bg-img:after {
   font-size: 1.5rem;
 }
 
-#work .container .work-container .card h3 {
-  font-size: 2rem;
-  padding-bottom: 2rem;
-}
-
-#work .container .work-container .card p {
-  font-size: 0.75rem;
-}
-
 #work .container .work-container button {
   width: 100%;
-  height: 420px;
+  height: 320px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  border: none;
 }
 
 #work .container .work-container button:hover {
@@ -309,8 +302,18 @@ body#bg-img:after {
   border: none;
 }
 
+#work .container .work-container ul {
+  display: flex;
+  font-size: 1rem;
+  list-style: none;
+}
+
+#work .container .work-container ul li {
+  padding: 0.5rem;
+}
+
 #work .container .work-container .work-img-1 {
-  background: url(/img/work/areslan.png) center center/cover;
+  background: url(/img/work/areslan.gif) center center/cover;
 }
 #work .container .work-container .work-img-2 {
   background: url(https://source.unsplash.com/95YRwf6CNw8/1600x900) no-repeat
