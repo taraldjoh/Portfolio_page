@@ -182,6 +182,7 @@ header {
 .menu .nav-item.current > a {
   color: #1e83bd;
   font-weight: 600;
+  border-bottom: var(--primary-color) 1px solid;
 }
 .menu .nav-link {
   display: inline-block;
@@ -366,6 +367,25 @@ header {
   
 }
 
+#about .container .card:first-child {
+  text-align: center;
+}
+
+#about .container .card:last-child {
+  border-left: #fff 3px solid;
+  padding-left: 1rem;
+}
+
+#about .container .card h2 {
+  font-size: 1rem;
+  color: var(--primary-color);
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+#about .container .card p {
+  line-height: 2rem;
+}
 
 
 
