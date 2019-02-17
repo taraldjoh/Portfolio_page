@@ -255,8 +255,8 @@ header {
 /* Section: Work */
 #work {
   background: #2b3135;
+  height: 100vh;
 }
-
 
 #work .container h2 {
   font-size: 3rem;
@@ -341,8 +341,27 @@ header {
     center center/cover;
 }
 
+#work h3:last-child {
+  text-align: center;
+  padding-top: 100px;
+}
+
 /* About Section */
 
+
+#about h2:first-child{
+ font-size: 3rem;
+ text-align: center;
+ font-weight: 400;
+ padding-bottom: 2rem;
+}
+
+#about .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  
+}
 
 
 
