@@ -14,6 +14,14 @@ html {
   margin: 0;
 }
 
+body {
+  background: #444;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
 /* Utility */
 h1,
 h2,
@@ -32,6 +40,14 @@ h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 3rem;
   background: rgba(73, 73, 73, 0.5);
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
 }
 
 .py-1 {
@@ -76,6 +92,15 @@ header {
   background: var(--primary-color);
   color: #fff;
 }
+
+.icons a {
+  padding: 0.6rem;
+}
+.icons a :hover {
+  color: #1e83bd;
+  transition: all 0.7s ease-out;
+}
+
 /* Menu/Navigation bar */
 .menu-btn {
   position: absolute;
@@ -191,38 +216,8 @@ header {
   transition-delay: 0.4s;
 }
 
-.icons a {
-  padding: 0.6rem;
-}
-.icons a :hover {
-  color: #1e83bd;
-  transition: all 0.7s ease-out;
-}
 
-/* Home Background */
-body {
-  background: #444;
-  color: #fff;
-  height: 100%;
-  margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
-}
-/* body#bg-img {
-  background: url(/dist/img/background.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
-body#bg-img:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: rgba(68, 68, 68, 0.9); */
-/* } */
+
 
 /* Home Section */
 #home {
@@ -262,12 +257,6 @@ body#bg-img:after {
   background: #2b3135;
 }
 
-#work .container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 2rem;
-  overflow: hidden;
-}
 
 #work .container h2 {
   font-size: 3rem;
@@ -353,8 +342,10 @@ body#bg-img:after {
 }
 
 /* About Section */
-#about {
-}
+
+
+
+
 
 /* Contact Section */
 #contact {

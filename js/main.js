@@ -11,26 +11,48 @@ let showMenu = false;
 menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-  if (!showMenu) {
+  // Opens the navigation bar
+  if (!showMenu) { 
     menuBtn.classList.add("close");
     menu.classList.add("show");
     menuNav.classList.add("show");
     menuBranding.classList.add("show");
     navItem.forEach(item => item.classList.add("show"));
 
-    // Set Menu state
+    // Set Menu state to true
     showMenu = true;
-  } else {
+  }
+  // Closes the navigation bar 
+  else { 
     menuBtn.classList.remove("close");
     menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
     navItem.forEach(item => item.classList.remove("show"));
 
-    // Set Menu state
+    // Set Menu state to false 
     showMenu = false;
   }
 }
+
+// Close menu when link is clicked
+
+navItem.addEventListener("click", closeMenu);
+
+function closeMenu() {
+    menuBtn.classList.remove("close");
+    menu.classList.remove("show");
+    menuNav.classList.remove("show");
+    menuBranding.classList.remove("show");
+    navItem.forEach(item => item.classList.remove("show"));
+
+    //Set Menu state
+    showMenu = false;
+}
+
+console.log(closeMenu);
+
+
 
 // Smooth Scrolling
 $(".btn").on("click", function(event) {
