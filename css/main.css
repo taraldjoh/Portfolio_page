@@ -232,19 +232,22 @@ header {
 #home .icons {
   margin-top: 1rem;
   padding-left: 2rem;
+  text-align: center;
 }
 
-#home#home {
+#home {
   overflow: hidden;
 }
 #home h1 {
   padding-top: 30vh;
   padding-left: 2rem;
+  text-align: center;
 }
 
 #home h2 {
-  width: 700px;
-  margin-left: 2rem;
+  margin: 2rem 15rem;
+  text-align: center;
+
 }
 
 #home .home-content .nextPage {
