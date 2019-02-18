@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #42baff;
+  --primary-color: #37a8e9;
   /* Primary color: 1e83bd */
-  --secondary-color: #444;
+  --secondary-color: #3d5252;
 }
 
 html {
@@ -20,10 +20,10 @@ canvas {
 
 body {
   background: #f5f5f5;
-  color: #444;
+  color: var(--secondary-color);
   height: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
 /* Utility */
@@ -65,7 +65,7 @@ h3.sm-heading {
 }
 
 a {
-  color: #444;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -75,8 +75,8 @@ header {
   width: 100%;
 }
 
-.text-secondary {
-  color: #42baff;
+.text-primary {
+  color: var(--primary-color);
 }
 
 .btn {
@@ -99,13 +99,17 @@ header {
 
 .icons a {
   padding: 0.6rem;
-  color: #444;
+  color: var(--secondary-color);
 }
 .icons a :hover {
-  color: #42baff;
+  color: var(--primary-color);
   transition: all 0.7s ease-out;
 }
 
+.section-sep {
+  border-bottom: #4a4a4a3d 2px solid;
+  margin: 0 15rem;
+}
 /* Menu/Navigation bar */
 .menu-btn {
   position: absolute;
@@ -119,7 +123,7 @@ header {
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #444;
+  background: var(--secondary-color);
   transition: all 0.7s ease-out;
 }
 .menu-btn.close {
@@ -136,7 +140,7 @@ header {
 }
 
 .menu-btn:hover .btn-line {
-  background: #42baff;
+  background: var(--primary-color);
 }
 
 .menu {
@@ -185,7 +189,7 @@ header {
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #42baff;
+  color: var(--primary-color);
   font-weight: 600;
   border-bottom: var(--primary-color) 1px solid;
 }
@@ -195,13 +199,13 @@ header {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding: 0.75rem 0;
-  color: #444;
+  color: var(--secondary-color);
   text-decoration: none;
   letter-spacing: 0.2rem;
   transition: all 0.7s ease-out;
 }
 .menu .nav-link:hover {
-  color: #42baff;
+  color: var(--primary-color);
 }
 
 .nav-item:nth-child(1) {
@@ -226,12 +230,13 @@ header {
   height: 100vh;
 }
 
+/* Home Section */
 #home .icons {
   padding-top: 53vh;
   text-align: center;
   position: absolute;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
 }
 
 #home h1 {
@@ -239,8 +244,8 @@ header {
   margin: auto;
   position: absolute;
   text-align: center;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
 }
 
 #home h2 {
@@ -249,8 +254,8 @@ header {
   margin-right: 20rem;
   text-align: center;
   position: absolute;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
 }
 
 /* Section: Work */
@@ -312,16 +317,15 @@ header {
   margin-right: 0.5rem;
   border-radius: 10px;
   transition: all 0.1s ease-in-out;
-  color: #fff;
 }
 
 #work .container .work-container ul li:nth-child(even) {
   background: var(--primary-color);
-  
 }
 
 #work .container .work-container ul li:nth-child(odd) {
   background: #5d5764;
+  color: #fff;
 }
 
 #work .container .work-container ul li:hover {
@@ -363,15 +367,22 @@ header {
   grid-gap: 1rem;
 }
 
+#about .container .card {
+  transition: all 0.3s ease-in-out;
+}
+
 #about .container .card:first-child {
   text-align: center;
 }
 
 #about .container .card:last-child {
-  border-left: #444 6px solid;
+  border-left: var(--secondary-color) 6px solid;
   padding-left: 1rem;
 }
 
+#about .container .card:hover {
+  transform: scale(1.02);
+}
 
 #about .container .card h2 {
   font-size: 1rem;
@@ -386,6 +397,18 @@ header {
 
 /* Contact Section */
 #contact {
+}
+
+/* Form styling */
+#contact .box {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#contact .box label {
+  display: block;
 }
 
 .noSelect {
