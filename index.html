@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio - Tarald Johansen</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.css"/>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    
+  
   </head>
   <body>
     <!-- Navigation bar -->
@@ -42,29 +44,16 @@
     </header>
 
     <!-- Landingpage -->
-    <section id="home">
-      <div class="home-content">
-        <h1 class="lg-heading noSelect">
-          Tarald
-          <span class="text-secondary noSelect">Johansen</span>
-        </h1>
-        <h2 class="sm-heading noSelect">
-          Web Developer, Programmer, Designer & Entrepreneur
-        </h2>
+    <container id="home">
+      <div id="particles-js">
+        <h1 class="lg-heading noSelect">Tarald <span class="text-secondary noSelect">Johansen</span></h1>
+        <h2 class="sm-heading noSelect">Web Developer, Programmer Designer & Entrepreneur</h2>
         <div class="icons noSelect">
-          <a href="https://twitter.com/Tarald_Johansen" target="_blank">
-            <i class="fab fa-twitter fa-3x"></i>
-          </a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100010483744314"
-            target="_blank"
-          >
+          <a href="https://twitter.com/Tarald_Johansen" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100010483744314" target="_blank">
             <i class="fab fa-facebook fa-3x" class="facebook"></i>
           </a>
-          <a
-            href="https://www.linkedin.com/in/tarald-johansen-62a849122/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/tarald-johansen-62a849122/" target="_blank">
             <i class="fab fa-linkedin fa-3x" class="linkedin"></i>
           </a>
           <a href="https://github.com/taraldjoh" target="_blank">
@@ -72,7 +61,7 @@
           </a>
         </div>
       </div>
-    </section>
+    </container>
 
     <!-- Work/Projects Section -->
     <section id="work" class="py-2">
@@ -158,4 +147,10 @@
     crossorigin="anonymous"
   ></script>
   <script src="js/main.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'js/particles.json', function(){
+      console.log('particles.json loaded...')
+    })
+  </script>
 </html>
