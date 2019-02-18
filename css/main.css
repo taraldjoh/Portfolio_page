@@ -19,7 +19,7 @@ canvas {
 }
 
 body {
-  background: #444;
+  background: #2b3135;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -30,14 +30,15 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0;
   font-weight: 400;
 }
+
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
 }
+
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
@@ -193,7 +194,6 @@ header {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding: 0.75rem 0;
-  font-weight: 400;
   color: #fff;
   text-decoration: none;
   letter-spacing: 0.2rem;
@@ -201,7 +201,6 @@ header {
 }
 .menu .nav-link:hover {
   color: #1e83bd;
-  font-weight: 400;
 }
 
 .nav-item:nth-child(1) {
@@ -222,34 +221,39 @@ header {
 
 /* Particles  */
 /* ---- particles.js container ---- */
-#home #particles-js {
+#particles-js {
   height: 100vh;
-  background-color: #444;
 }
 
 #home .icons {
-  margin-top: 1rem;
-  padding-left: 2rem;
+  padding-top: 53vh;
   text-align: center;
   position: absolute;
+  left:0;
+  right:0;
 }
 
 #home h1 {
   padding-top: 30vh;
-  padding-left: 2rem;
+  margin: auto;
   position: absolute;
+  text-align: center;
+  left:0;
+  right:0;
 }
 
 #home h2 {
-  margin: 2rem 15rem;
+  margin-top: 45vh;
+  margin-left: 20rem;
+  margin-right: 20rem;
   text-align: center;
   position: absolute;
-
+  left:0;
+  right:0;
 }
 
 /* Section: Work */
 #work {
-  background: #2b3135;
   height: 100vh;
 }
 
