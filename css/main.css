@@ -19,7 +19,7 @@ canvas {
 }
 
 body {
-  background: #ebebeb;
+  background: #f5f5f5;
   color: #444;
   height: 100%;
   margin: 0;
@@ -48,7 +48,7 @@ h3.sm-heading {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
@@ -102,7 +102,7 @@ header {
   color: #444;
 }
 .icons a :hover {
-  color: #1e83bd;
+  color: #42baff;
   transition: all 0.7s ease-out;
 }
 
@@ -136,7 +136,7 @@ header {
 }
 
 .menu-btn:hover .btn-line {
-  background: #1e83bd;
+  background: #42baff;
 }
 
 .menu {
@@ -185,7 +185,7 @@ header {
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #1e83bd;
+  color: #42baff;
   font-weight: 600;
   border-bottom: var(--primary-color) 1px solid;
 }
@@ -201,7 +201,7 @@ header {
   transition: all 0.7s ease-out;
 }
 .menu .nav-link:hover {
-  color: #1e83bd;
+  color: #42baff;
 }
 
 .nav-item:nth-child(1) {
@@ -312,10 +312,12 @@ header {
   margin-right: 0.5rem;
   border-radius: 10px;
   transition: all 0.1s ease-in-out;
+  color: #fff;
 }
 
 #work .container .work-container ul li:nth-child(even) {
   background: var(--primary-color);
+  
 }
 
 #work .container .work-container ul li:nth-child(odd) {
@@ -323,7 +325,7 @@ header {
 }
 
 #work .container .work-container ul li:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 #work .container .work-container .card .icons {
@@ -366,9 +368,10 @@ header {
 }
 
 #about .container .card:last-child {
-  border-left: #fff 3px solid;
+  border-left: #444 6px solid;
   padding-left: 1rem;
 }
+
 
 #about .container .card h2 {
   font-size: 1rem;
@@ -391,7 +394,7 @@ header {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  -user-select: none;
 }
 
 /* Footer */
