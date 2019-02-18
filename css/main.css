@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #1c95db;
+  --primary-color: #42baff;
   /* Primary color: 1e83bd */
   --secondary-color: #444;
 }
@@ -19,11 +19,11 @@ canvas {
 }
 
 body {
-  background: #2b3135;
-  color: #fff;
+  background: #ebebeb;
+  color: #444;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
 /* Utility */
@@ -44,7 +44,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 3rem;
-  background: rgba(73, 73, 73, 0.5);
+  background: rgba(73, 73, 73, 0.116);
 }
 
 .container {
@@ -65,7 +65,7 @@ h3.sm-heading {
 }
 
 a {
-  color: #fff;
+  color: #444;
   text-decoration: none;
 }
 
@@ -76,13 +76,13 @@ header {
 }
 
 .text-secondary {
-  color: #1e83bd;
+  color: #42baff;
 }
 
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: #f4f4f4;
+  background: #666;
   color: var(--secondary-color);
   text-decoration: none;
   margin-top: 1rem;
@@ -99,6 +99,7 @@ header {
 
 .icons a {
   padding: 0.6rem;
+  color: #444;
 }
 .icons a :hover {
   color: #1e83bd;
@@ -118,7 +119,7 @@ header {
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #fff;
+  background: #444;
   transition: all 0.7s ease-out;
 }
 .menu-btn.close {
@@ -160,7 +161,7 @@ header {
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: rgba(55, 55, 55, 0.95);
+  background: rgba(202, 202, 202, 0.95);
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.7s ease-out;
@@ -194,7 +195,7 @@ header {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding: 0.75rem 0;
-  color: #fff;
+  color: #444;
   text-decoration: none;
   letter-spacing: 0.2rem;
   transition: all 0.7s ease-out;
