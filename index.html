@@ -139,7 +139,7 @@
     <div class="section-sep"></div>
     <!-- About Section -->
     <section id="about" class="py-2">
-      <h2 class="noSelect">About Me</h2>
+      <h2 class="m-heading noSelect">About Me</h2>
       <div class="container">
         <div class="card">
           <img class="noSelect" src="/img/avatar.png" alt="Avatar" />
@@ -164,40 +164,44 @@
 
     <!-- Contact Section -->
     <section id="contact">
-      <h1 class="py-2 noSelect">Get in touch here!</h1>
-      <p>
+      <h1 class="m-heading py-2 noSelect">Get in touch here!</h1>
+      <p class="noSelect">
         Fill out the form to get in touch with me! I always respond as fast as I
         can!
       </p>
-      <div class="box">
-        <form action="">
-          <div class="inputBox">
-            <input type="text" name="first-name" required="" />
-            <label for="first-name">First Name</label>
-          </div>
-          <div class="inputBox">
-            <input type="text" name="last-name" required="" />
-            <label for="last-name">Last Name</label>
-          </div>
-          <div class="inputBox">
-            <input type="phone" name="phone" />
-            <label for="phone">Phone Number</label>
-          </div>
-          <div class="inputBox">
-            <input type="email" name="email" required="" />
-            <label for="email">Email</label>
-          </div>
-          <div class="inputBox">
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              maxlength="350"
-            ></textarea>
-            <input type="Submit" name="submit" value="Submit" />
-          </div>
-        </form>
+      <div class="container">
+        <div class="box">
+          <form class="noSelect" action="">
+            <div class="inputBox">
+              <input type="text" name="first-name" required="" />
+              <label for="first-name">First Name</label>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="last-name" required="" />
+              <label for="last-name">Last Name</label>
+            </div>
+            <div class="inputBox">
+              <input type="phone" name="phone" required="" />
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="inputBox">
+              <input type="email" name="email" required="" />
+              <label for="email">Email</label>
+            </div>
+            <div class="inputBox">
+              <p class="noSelect">Message</p>
+              <textarea
+                placeholder="  Skriv din melding (Maks 500 karakterer)"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                maxlength="500"
+              ></textarea>
+              <input type="submit" name="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
