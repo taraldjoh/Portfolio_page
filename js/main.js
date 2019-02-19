@@ -12,7 +12,7 @@ menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
   // Opens the navigation bar
-  if (!showMenu) { 
+  if (!showMenu) {
     menuBtn.classList.add("close");
     menu.classList.add("show");
     menuNav.classList.add("show");
@@ -22,29 +22,26 @@ function toggleMenu() {
     // Set Menu state to true
     showMenu = true;
   }
-  // Closes the navigation bar 
-  else { 
+  // Closes the navigation bar
+  else {
     menuBtn.classList.remove("close");
     menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
     navItem.forEach(item => item.classList.remove("show"));
 
-    // Set Menu state to false 
+    // Set Menu state to false
     showMenu = false;
   }
 }
 
-
 // Changes current class when nav item is clicked
 for (let i = 0; i < navItem.length; i++) {
   navItem[i].addEventListener("click", function() {
-    Array.from(navItem, navItem => navItem.classList.remove('current'));
-    navItem[i].classList.add('current');
+    Array.from(navItem, navItem => navItem.classList.remove("current"));
+    navItem[i].classList.add("current");
   });
 }
-
-
 
 // Smooth Scrolling
 $(".btn").on("click", function(event) {
@@ -58,4 +55,11 @@ $(".btn").on("click", function(event) {
       800
     );
   }
+});
+
+//Character countdown, max 255 chars. Stop if hit
+const MAX_LENGTH = 500;
+document.querySelector("textarea").addEventListener("keyup", e => {
+  document.querySelector("#charNum").innerHTML =
+    MAX_LENGTH - e.target.value.length;
 });

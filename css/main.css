@@ -2,6 +2,7 @@
   --primary-color: #37a8e9;
   /* Primary color: 1e83bd */
   --secondary-color: #3d5252;
+  --form-text: #000000;
 }
 
 html {
@@ -401,13 +402,8 @@ header {
 
 /* Contact Section */
 #contact {
-  height: 70vh;
+  height: 100vh;
 }
-
-#contact h1 {
-  padding-top: 10vh;
-}
-
 #contact p {
   text-align: center;
   font-size: 1.2rem;
@@ -423,9 +419,9 @@ header {
 #contact .box {
   margin-top: 2rem;
   position: absolute;
-  width: 400px;
+  width: 600px;
   padding: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(224, 224, 224, 0.7);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -439,9 +435,9 @@ header {
   font-size: 1rem;
   margin-bottom: 30px;
   border: none;
-  color: #fff;
+  color: var(--form-text);
   outline: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: var(--primary-color) 1px solid;
   background: transparent;
 }
 
@@ -451,7 +447,8 @@ header {
   left: 0;
   padding: 10px 0;
   font-size: 1rem;
-  color: #fff;
+  color: var(--primary-color);
+  font-weight: 550;
   pointer-events: none;
   transition: 0.5s all ease-in-out;
 }
@@ -460,7 +457,6 @@ header {
 #contact .box .inputBox input:valid ~ label {
   top: -25px;
   left: 0;
-  color: var(--primary-color);
   font-size: 1rem;
 }
 
@@ -483,17 +479,38 @@ header {
 #contact .box .inputBox p {
   text-align: left;
   font-size: 1rem;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 #contact .box .inputBox textarea {
   resize: none;
   width: auto;
   outline: none;
-  border: 1px #fff solid;
+  border: var(--primary-color) 1px solid;
+  color: var(--form-text);
+  background: transparent;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
   overflow: hidden;
   height: 250px;
-  width: 320px;
+  width: 100%;
+}
+
+/* Autofill background color  */
+@-webkit-keyframes autofill {
+  to {
+    color: var(--form-text);
+    background: transparent;
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+
+/* Footer */
+footer {
 }
 
 .noSelect {
