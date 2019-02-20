@@ -514,10 +514,6 @@ footer {
 footer i {
   color: #fff;
 }
-footer p {
-  font-size: 1.2rem;
-  padding: 0.5rem;
-}
 
 footer .footer-container {
   display: grid;
