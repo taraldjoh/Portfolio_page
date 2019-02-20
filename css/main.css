@@ -401,9 +401,7 @@ header {
 }
 
 /* Contact Section */
-#contact {
-  height: 100vh;
-}
+
 #contact p {
   text-align: center;
   font-size: 1.2rem;
@@ -417,8 +415,7 @@ header {
 /* Form styling */
 
 #contact .box {
-  margin-top: 2rem;
-  position: absolute;
+  margin: 3rem 0;
   width: 600px;
   padding: 40px;
   background: rgba(224, 224, 224, 0.7);
@@ -511,6 +508,35 @@ input:-webkit-autofill {
 
 /* Footer */
 footer {
+  color: #fff;
+  background: #616161;
+}
+footer i {
+  color: #fff;
+}
+footer p {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #fff;
+}
+
+footer .footer-container > *:first-child {
+  grid-column: 1 / span 4;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer .footer-container > *:last-child {
+  background: #4f4f4f;
+  grid-column: 1 / span 4;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
 }
 
 .noSelect {
