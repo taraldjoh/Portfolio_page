@@ -5,8 +5,11 @@ const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItem = document.querySelectorAll(".nav-item");
 
+
 // Set Initial state of the menu
 let showMenu = false;
+
+// Detect click outside and cloes nav-bar
 
 menuBtn.addEventListener("click", toggleMenu);
 
@@ -63,3 +66,5 @@ document.querySelector("textarea").addEventListener("keyup", e => {
   document.querySelector("#charNum").innerHTML =
     MAX_LENGTH - e.target.value.length;
 });
+
+
