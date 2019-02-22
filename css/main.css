@@ -125,6 +125,11 @@ header {
   color: #fff;
 }
 
+.iconCSS {
+  color: #fff;
+  background: #1a73bb;
+}
+
 .iconJS {
   background: #fbee41;
   color: #444;
