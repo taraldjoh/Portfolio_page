@@ -63,13 +63,13 @@ h3.sm-heading {
 }
 
 .py-1 {
-  padding: 1rem 0;
-}
-.py-2 {
   padding: 2rem 0;
 }
+.py-2 {
+  padding: 4rem 0;
+}
 .py-3 {
-  padding: 3rem 0;
+  padding: 6rem 0;
 }
 
 a {
@@ -118,6 +118,28 @@ header {
   border-bottom: #4a4a4a3d 2px solid;
   margin: 0 15rem;
 }
+
+/* Technology used utility classes */
+.iconHTML {
+  background: #fb7a41;
+  color: #fff;
+}
+
+.iconJS {
+  background: #fbee41;
+  color: #444;
+}
+
+.iconSASS {
+  color: #ce679a;
+  background: #fff;
+}
+
+.iconPHP {
+  background: #777cb5;
+  color: #000;
+}
+
 /* Menu/Navigation bar */
 .menu-btn {
   position: absolute;
@@ -265,7 +287,7 @@ header {
 
 /* Section: Work */
 #work {
-  height: 100vh;
+  height: 90vh;
 }
 
 #work .container h2 {
@@ -324,32 +346,23 @@ header {
   transition: all 0.1s ease-in-out;
 }
 
-#work .container .work-container ul li:nth-child(even) {
-  background: var(--primary-color);
-}
-
-#work .container .work-container ul li:nth-child(odd) {
-  background: #5d5764;
-  color: #fff;
-}
-
-#work .container .work-container ul li:hover {
-  transform: scale(1.02);
-}
-
 #work .container .work-container .card .icons {
   display: flex;
   align-items: center;
   text-align: center;
   font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+
+#work .container .work-container .card .icons a {
+  padding: 0 0.2rem;
 }
 
 #work .container .work-container .work-img-1 {
-  background: url(/img/work/areslan.gif) no-repeat center center/cover;
+  background: url(/img/work/areslan2.png) no-repeat center center/cover;
 }
 #work .container .work-container .work-img-2 {
-  background: url(https://source.unsplash.com/95YRwf6CNw8/1600x900) no-repeat
-    center center/cover;
+  background: url(/img/work/coming_soon.png) no-repeat center center/cover;
 }
 
 #work h3:last-child {
@@ -360,10 +373,6 @@ header {
 /* About Section */
 #about {
   height: 70vh;
-}
-
-#about h2.m-heading {
-  padding-top: 10vh;
 }
 
 #about .container {
