@@ -1,15 +1,11 @@
 // Select DOM Items
 const menuBtn = document.querySelector(".menu-btn");
-const menu = document.querySelector(".menu");
+const menu = document.querySelector(".menu", ".menu-nav");
 const menuNav = document.querySelector(".menu-nav");
-const menuBranding = document.querySelector(".menu-branding");
 const navItem = document.querySelectorAll(".nav-item");
-
 
 // Set Initial state of the menu
 let showMenu = false;
-
-// Detect click outside and cloes nav-bar
 
 menuBtn.addEventListener("click", toggleMenu);
 
@@ -19,24 +15,35 @@ function toggleMenu() {
     menuBtn.classList.add("close");
     menu.classList.add("show");
     menuNav.classList.add("show");
-    menuBranding.classList.add("show");
     navItem.forEach(item => item.classList.add("show"));
-
-    // Set Menu state to true
-    showMenu = true;
+    showMenu = !showMenu;
   }
   // Closes the navigation bar
   else {
     menuBtn.classList.remove("close");
     menu.classList.remove("show");
     menuNav.classList.remove("show");
-    menuBranding.classList.remove("show");
     navItem.forEach(item => item.classList.remove("show"));
-
-    // Set Menu state to false
-    showMenu = false;
+    showMenu = !showMenu;
   }
 }
+
+// document.addEventListener("click", toogleMenu);
+
+// function toogleMenu() {
+//   showMenu = !showMenu;
+
+//   if (showMenu) {
+//     menuBtn.classList.remove("close");
+//     menu.classList.remove("show");
+//     menuNav.classList.remove("show");
+//     menuBranding.classList.remove("show");
+//     navItem.forEach(item => item.classList.remove("show"));
+
+//     // Set Menu state to false
+//     showMenu = !showMenu;
+//   }
+// }
 
 // Changes current class when nav item is clicked
 for (let i = 0; i < navItem.length; i++) {
@@ -66,5 +73,3 @@ document.querySelector("textarea").addEventListener("keyup", e => {
   document.querySelector("#charNum").innerHTML =
     MAX_LENGTH - e.target.value.length;
 });
-
-
