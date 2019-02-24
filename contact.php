@@ -1,18 +1,25 @@
 <?php
+  // Message Vars
+  $msg = '';
 
-if (isset($_POST['Submit'])) {
+  // Check for submit
+  if(filter_has_var(INPUT_POST, 'submit')){
+    // Get Form Data
+    $firstName = $POST_['firstName'];
+    $lastName = $POST_['lastName'];
+    $phone = $POST_['phone'];
+    $mail = $POST_['mail'];
+    $message = $POST_['message'];
+    echo 'WORKS';
 
-  // Variables
-  $firstName = $_POST['firstName'];
-  $lastName = $_POST['lastName'];
-  $phone = $_POST['phone'];
-  $mailFrom = $_POST['mail'];
-  $message = $_POST['message'];
+    // Check Required Fields
+    if(!empty($email) && !empty($firstName) && !empty($lastName) && !empty($message)) {
+      // Passed
+      echo = 'Passed';
+    } else {
+      // Failed
+      $msg = 'Please fill in all fields';
+    }
+  }
 
-  $mailTo = "contact@tarald.tech";
-  $headers = "New Form Contact From: ".$mailFrom;
-  $txt = "You have recieved an e-mail from ".$firstName.$lastName.".\n\n".$message;
-
-  mail($mailTo, $message, $txt, $headers);
-  header("Location: index.html?mailsend");
-}
+?>
