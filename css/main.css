@@ -165,7 +165,7 @@ header {
   transition: all 0.5s ease-out;
 }
 
-.menu .nav-item.current > a {
+.menu .nav-link.current {
   color: var(--primary-color);
   font-weight: 600;
   border-bottom: var(--primary-color) 1px solid;

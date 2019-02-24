@@ -1,5 +1,5 @@
 // Select DOM Items
-const navItem = document.querySelectorAll(".nav-item");
+const navItem = document.querySelectorAll(".nav-link");
 
 //Changes current class when nav item is clicked
 for (let i = 0; i < navItem.length; i++) {
