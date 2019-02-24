@@ -344,6 +344,10 @@ header {
 }
 
 /* Contact Section */
+#contact h1 {
+  padding-top: 4rem;
+  padding-bottom: 0;
+}
 
 #contact p {
   text-align: center;
@@ -424,6 +428,10 @@ header {
   overflow: hidden;
   height: 250px;
   width: 100%;
+}
+
+#contact .box span {
+  color: var(--primary-color);
 }
 
 /* Autofill background color  */

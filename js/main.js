@@ -1,7 +1,4 @@
 // Select DOM Items
-const menuBtn = document.querySelector(".menu-btn");
-const menu = document.querySelector(".menu", ".menu-nav");
-const menuNav = document.querySelector(".menu-nav");
 const navItem = document.querySelectorAll(".nav-item");
 
 //Changes current class when nav item is clicked
@@ -26,7 +23,7 @@ $(".btn").on("click", function(event) {
   }
 });
 
-//Character countdown, max 255 chars. Stop if hit
+//Character countdown, max 500 chars
 const MAX_LENGTH = 500;
 document.querySelector("textarea").addEventListener("keyup", e => {
   document.querySelector("#charNum").innerHTML =
