@@ -76,6 +76,33 @@
         text-align: center;
     }
 
+    /* Contact Section */
+    #contact h1 {
+        font-size: 2rem;
+    }
+
+    #contact p {
+        font-size: .9rem;
+        padding: .5rem 1rem;
+    }
+
+    #contact .container {
+        padding: 0 .75rem
+    }
+
+    #contact .box {
+        margin: 1.5rem 0;
+        padding: 1.5rem 1rem;
+    }
+
+    #contact .box .inputBox p {
+        padding: 0;
+    }
+
+    #contact .box .inputBox input[type="submit"] {
+        padding: 1rem 1.5rem;
+    }
+
 
     
 
