@@ -14,7 +14,7 @@
         font-weight: bold;
     }
 
-    /* Landingpage */
+    /* Landingpage */ 
     #home .container {
         display: flex;
         flex-direction: column;
@@ -29,4 +29,35 @@
     #home h2 {
         font-size: 1rem;
     }
+
+    /* Work Section */
+    #work {
+        height: auto;
+    }
+
+    #work .container {
+        padding: 0 .5rem;
+    }
+
+    #work .container h2 {
+        font-size: 2rem;
+    }
+
+    #work .container .work-container {
+        display: block;
+    }
+
+    #work .container .work-container button {
+    }
+
+    #work .container .work-container .card .tech-used {
+        display: none;
+    }
+
+    #work .container .work-container .card .icons {
+        justify-content: center;
+    }
+    
+
+
 }
