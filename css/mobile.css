@@ -1,0 +1,12 @@
+@media(max-width: 500px) {
+    /* Navigation Bar */
+    .menu .nav-item {
+        padding: 1.5rem .75rem;
+    }
+
+    .menu .nav-link {
+        font-size: .70rem;
+        font-weight: bold;
+    }
+    
+}
