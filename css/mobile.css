@@ -1,4 +1,9 @@
 @media(max-width: 500px) {
+    /* Utility Classes */
+    .section-sep {
+        margin: 0 1rem;;
+    }
+
     /* Navigation Bar */
     .menu .nav-item {
         padding: 1.5rem .75rem;
@@ -8,5 +13,20 @@
         font-size: .70rem;
         font-weight: bold;
     }
-    
+
+    /* Landingpage */
+    #home .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #home h1 {
+        font-size: 4rem;
+        line-height: 1;
+        margin-bottom: 2rem;
+    }
+
+    #home h2 {
+        font-size: 1rem;
+    }
 }
