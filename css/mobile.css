@@ -102,9 +102,11 @@
     #contact .box .inputBox input[type="submit"] {
         padding: 1rem 1.5rem;
     }
+}
 
-
-    
-
-
+@media(max-width: 900px) {
+    /* Work Section */
+    #work .container .work-container {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
