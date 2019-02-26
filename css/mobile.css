@@ -57,6 +57,26 @@
     #work .container .work-container .card .icons {
         justify-content: center;
     }
+
+    /* About Section */
+    #about {
+        height: auto;
+    }
+
+    #about .container {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+    }
+
+    #about .container .card:last-child {
+        border-left: none;
+        border-top: var(--secondary-color) 3px solid;
+        padding-top: 2rem;
+        padding-left: 0;
+        text-align: center;
+    }
+
+
     
 
 
