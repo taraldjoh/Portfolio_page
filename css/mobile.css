@@ -6,11 +6,11 @@
 
     /* Navigation Bar */
     .menu .nav-item {
-        padding: 1.5rem .75rem;
+        padding: 1rem .5rem;
     }
 
     .menu .nav-link {
-        font-size: .70rem;
+        font-size: .6rem;
         font-weight: bold;
     }
 
