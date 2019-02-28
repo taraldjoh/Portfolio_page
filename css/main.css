@@ -367,7 +367,7 @@ header {
 
 #contact .box .inputBox input {
   width: 100%;
-  padding-top: 1.7rem;
+  padding: 10px 0;
   font-size: 1rem;
   margin-bottom: 30px;
   border: none;
@@ -381,9 +381,19 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 10px 0;
   font-size: 1rem;
   color: var(--primary-color);
   pointer-events: none;
+  transition: all .5s ease-in-out;
+}
+
+#contact .box .inputBox input:focus ~ label,
+#contact .box .inputBox input:valid ~ label {
+  top: -25px;
+  left: 0;
+  color: var(--primary-color);
+  font-size: 1rem;
 }
 
 #contact .box .inputBox input[type="submit"] {
