@@ -220,10 +220,6 @@ header {
 }
 
 /* Section: Work */
-#work {
-  height: 90vh;
-}
-
 #work .container h2 {
   font-size: 3rem;
   text-align: center;
@@ -305,10 +301,6 @@ header {
 }
 
 /* About Section */
-#about {
-  height: 70vh;
-}
-
 #about .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
