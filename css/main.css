@@ -63,14 +63,27 @@ h3.sm-heading {
 }
 
 .py-1 {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .py-2 {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .py-3 {
+  padding: 4rem 0;
+}
+
+.py-4 {
   padding: 6rem 0;
 }
+
+.py-5 {
+  padding: 8rem 0;
+}
+
+.py-6 {
+  padding: 10rem 0;
+}
+
 
 a {
   color: var(--secondary-color);
@@ -471,7 +484,7 @@ footer .footer-container > *:first-child {
 }
 
 footer .footer-container > *:last-child {
-  background: #4f4f4f;
+
   grid-column: 1 / span 4;
   padding: 0.5rem;
   text-align: center;

@@ -63,9 +63,21 @@
         height: auto;
     }
 
+    .m-heading {
+        padding-bottom: 0;
+    }
+
+    #about.py-6 {
+        padding: 4rem 0;
+    }
+
     #about .container {
         grid-template-columns: repeat(1,1fr);
         grid-gap: 2rem;
+    }
+
+    #about .container .card:first-child {
+        transform: scale(0.7)
     }
 
     #about .container .card:last-child {
