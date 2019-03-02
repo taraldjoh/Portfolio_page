@@ -268,14 +268,21 @@ header {
 
 #work .container .work-container .card .icons {
   display: flex;
+  margin-top: 1rem;
   align-items: center;
   text-align: center;
   font-size: 0.9rem;
-  padding: 0.5rem 0;
 }
 
-#work .container .work-container .card .icons a {
-  padding: 0 0.2rem;
+#work .source-code {
+  display: flex;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+#work .source-code p {
+  margin-left: .5rem;
+  font-weight: bold;
 }
 
 #work .container .work-container .work-img-1 {
