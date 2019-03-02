@@ -127,34 +127,8 @@ header {
 }
 
 .section-sep {
-  border-bottom: #4a4a4a3d 2px solid;
+  border-bottom: #4a4a4a28 2px solid;
   margin: 0 15rem;
-}
-
-/* Technology used utility classes */
-.iconHTML {
-  background: #fb7a41;
-  color: #fff;
-}
-
-.iconCSS {
-  color: #fff;
-  background: #1a73bb;
-}
-
-.iconJS {
-  background: #fbee41;
-  color: #444;
-}
-
-.iconSASS {
-  color: #ce679a;
-  background: #fff;
-}
-
-.iconPHP {
-  background: #777cb5;
-  color: #000;
 }
 
 /* Menu/Navigation bar */
