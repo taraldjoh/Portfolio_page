@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #1e83bd;
+  --primary-color: #35aaee;
   --secondary-color: #212727;
   --form-text: #000000;
 }
@@ -189,9 +189,10 @@ header {
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: var(--secondary-color);
+  font-weight: 550;
   text-decoration: none;
   letter-spacing: 0.2rem;
   transition: all 0.2s ease-out;
