@@ -83,7 +83,6 @@ h3.sm-heading {
   padding: 10rem 0;
 }
 
-
 a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -97,24 +96,6 @@ header {
 
 .text-primary {
   color: var(--primary-color);
-}
-
-.btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background: #666;
-  color: var(--secondary-color);
-  text-decoration: none;
-  margin-top: 1rem;
-  border-radius: 5px;
-  font-size: 1.3rem;
-  font-weight: 400;
-  transition: all 0.3s ease-in;
-}
-
-.btn:hover {
-  background: var(--primary-color);
-  color: #fff;
 }
 
 .icons a {
@@ -235,7 +216,7 @@ header {
 }
 
 #work .container .work-container button:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 #work .container .work-container button:active {
@@ -260,8 +241,7 @@ header {
   padding: 0.25rem;
   margin-right: 0.5rem;
   border-radius: 10px;
-  box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.15);
-
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.15);
   transition: all 0.1s ease-in-out;
   border: 1px #333 solid;
 }
@@ -277,11 +257,11 @@ header {
 #work .source-code {
   display: flex;
   align-items: center;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #work .source-code p {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   font-weight: bold;
 }
 
@@ -382,7 +362,7 @@ header {
   font-size: 1rem;
   color: var(--primary-color);
   pointer-events: none;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #contact .box .inputBox input:focus ~ label,
@@ -468,7 +448,6 @@ footer .footer-container > *:first-child {
 }
 
 footer .footer-container > *:last-child {
-
   grid-column: 1 / span 4;
   padding: 0.5rem;
   text-align: center;
