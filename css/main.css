@@ -26,6 +26,16 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -user-select: none;
+}
+
 /* Utility */
 h1,
 h2,
@@ -334,7 +344,7 @@ header {
   margin: 3rem 0;
   width: 600px;
   padding: 40px;
-  background: rgba(231, 230, 230, 0.7);
+  background: rgba(202, 202, 202, 0.4);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -453,16 +463,3 @@ footer .footer-container > *:last-child {
   text-align: center;
   font-size: 0.75rem;
 }
-
-.noSelect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -user-select: none;
-}
-
-/* Footer */
-
-/* Media Queries */
