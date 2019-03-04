@@ -1,5 +1,6 @@
 :root {
   --primary-color: #35aaee;
+  --primary-dark: #2d8dc5;
   --secondary-color: #212727;
   --form-text: #000000;
 }
@@ -69,6 +70,21 @@ h3.sm-heading {
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
+}
+
+.btn {
+  text-align: center;
+  background: var(--primary-color);
+  padding: 1rem 2rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  color: white;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+  background: var(--primary-dark);
 }
 
 .py-1 {
@@ -396,7 +412,7 @@ header {
 }
 
 #contact .box .inputBox input[type="submit"]:hover {
-  background: #2e8ac0;
+  background: var(--primary-dark);
 }
 
 #contact .box .inputBox p {

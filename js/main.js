@@ -10,7 +10,7 @@ for (let i = 0; i < navItem.length; i++) {
 }
 
 // Smooth Scrolling
-$(".btn").on("click", function(event) {
+$(".btn", "a").on("click", function(event) {
   if (this.hask !== "") {
     event.preventDefault();
     const hash = this.hash;
