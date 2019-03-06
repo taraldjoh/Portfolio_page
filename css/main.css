@@ -50,14 +50,6 @@ h3.lg-heading {
   font-size: 6rem;
 }
 
-h1.sm-heading,
-h2.sm-heading,
-h3.sm-heading {
-  margin-bottom: 2rem;
-  padding: 0.2rem 3rem;
-  background: rgba(73, 73, 73, 0.116);
-}
-
 .m-heading {
   font-size: 3rem;
   text-align: center;
@@ -196,7 +188,7 @@ header {
   left: 0;
   right: 0;
   width: auto;
-  margin-top: 35vh;
+  margin-top: 20vh;
 }
 
 #home h1 {
@@ -204,13 +196,23 @@ header {
   text-align: center;
 }
 
-#home h2 {
-  display: inline-block;
-  text-align: center;
-}
 #home .icons {
   text-align: center;
   display: inline-block;
+}
+
+/* TypeWriter */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+#home .txt-type {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  font-size: 2rem;
+  background: rgba(73, 73, 73, 0.116);
 }
 
 /* Section: Work */
