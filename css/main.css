@@ -363,6 +363,16 @@ header {
   justify-content: center;
 }
 
+#contact .container form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: .5rem;
+}
+
+#contact .container form > *:last-child {
+  grid-column: 1 / span 2;
+}
+
 /* Form styling */
 
 #contact .box {
