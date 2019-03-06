@@ -26,8 +26,10 @@
         margin-bottom: 2rem;
     }
 
-    #home h2 {
-        font-size: 1rem;
+    #home .txt-type {
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     /* Work Section */
