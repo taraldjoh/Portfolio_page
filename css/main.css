@@ -340,11 +340,8 @@ header {
   line-height: 2rem;
 }
 
-#about #skills h3 {
+#about #skills h2 {
   margin-top: 7rem;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
 }
 
 /* Contact Section */
@@ -366,7 +363,7 @@ header {
 #contact .container form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: .5rem;
+  grid-gap: 0.5rem;
 }
 
 #contact .container form > *:last-child {
