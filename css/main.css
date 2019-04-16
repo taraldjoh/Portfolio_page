@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #db0404;
-  --primary-dark: #b31515;
+  --primary-color: #6245e0;
+  --primary-dark: #5540b6;
   --secondary-color: #161616;
   --form-text: #000000;
 }
@@ -34,7 +34,6 @@ body {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  -user-select: none;
 }
 
 /* Utility */
@@ -342,6 +341,29 @@ header {
 
 #about #skills h2 {
   margin-top: 7rem;
+}
+
+#about #skills .container {
+  grid-template-columns: repeat(1, 1fr);
+  align-content: center;
+  text-align: center;
+  padding: 0 6rem;
+}
+
+#about #skills .container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  list-style: none;
+  font-size: 2rem;
+  grid-gap: 1rem 0;
+}
+
+#about #skills .container ul li {
+  transition: all 0.3s ease-in-out;
+}
+
+#about #skills .container ul li:hover {
+  transform: scale(1.01);
 }
 
 /* Contact Section */
