@@ -90,7 +90,6 @@ old/js/particles.json
 package-lock.json
 js/particles.json
 js/main.js
-index.html
 img/work/coming_soon.png
 img/work/areslan2.png
 img/work/areslan.png
@@ -101,7 +100,7 @@ css/main.css
 contact.php
 js/particles.json
 js/main.js
-index.html
+
 img/work/coming_soon.png
 img/work/areslan2.png
 img/work/areslan.png
@@ -118,7 +117,7 @@ img/work/areslan.gif
 img/work/areslan.png
 img/work/areslan2.png
 img/work/coming_soon.png
-index.html
+
 js/main.js
 js/particles.json
 contact.php
@@ -129,6 +128,10 @@ img/work/areslan.gif
 img/work/areslan.png
 img/work/areslan2.png
 img/work/coming_soon.png
-index.html
+
 js/main.js
 js/particles.json
+node_modules/materialize-css/dist/css/materialize.css
+node_modules/materialize-css/dist/css/materialize.min.css
+node_modules/materialize-css/dist/js/materialize.js
+node_modules/materialize-css/dist/js/materialize.min.js
