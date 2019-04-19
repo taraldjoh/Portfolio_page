@@ -1,0 +1,135 @@
+@media (max-width: 768px) {
+  /* Utility Classes */
+  .section-sep {
+    margin: 0 1rem;
+  }
+
+  /* Navigation Bar */
+  .menu .nav-item {
+    padding: 1rem 0.4rem;
+  }
+
+  .menu .nav-link {
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+
+  /* Landingpage */
+  #home .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home h1 {
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+  }
+
+  #home .txt-type {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Work Section */
+  #work {
+    height: auto;
+  }
+
+  #work .container {
+    padding: 0 0.5rem;
+  }
+
+  #work .container h2 {
+    font-size: 2rem;
+  }
+
+  #work .container .work-container {
+    display: block;
+  }
+
+  #work .container .work-container button {
+  }
+
+  #work .container .work-container .card .tech-used {
+    display: none;
+  }
+
+  #work .container .work-container .card .icons {
+    justify-content: center;
+  }
+
+  /* About Section */
+  #about {
+    height: auto;
+  }
+
+  .m-heading {
+    padding-bottom: 0;
+  }
+
+  #about.py-6 {
+    padding: 4rem 0;
+  }
+
+  #about .container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
+  #about .container .card:first-child {
+    transform: scale(0.8);
+  }
+
+  #about .container .card:last-child {
+    border-left: none;
+    border-top: var(--secondary-color) 3px solid;
+    padding-top: 2rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #about #skills .container {
+    padding: 0 3rem;
+  }
+
+  #about #skills .container ul {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1.5rem;
+  }
+
+  /* Contact Section */
+  #contact h1 {
+    font-size: 2rem;
+  }
+
+  #contact p {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #contact .container {
+    padding: 0 0.75rem;
+  }
+
+  #contact .box {
+    margin: 1.5rem 0;
+    padding: 1.5rem 1rem;
+  }
+
+  #contact .box .inputBox p {
+    padding: 0;
+  }
+
+  #contact .box .inputBox input[type="submit"] {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Work Section */
+  #work .container .work-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
