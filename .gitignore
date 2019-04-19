@@ -1,11 +1,5 @@
 
 node_modules/materialize-css/CHANGELOG.md
-node_modules/materialize-css/dist/css/main.css
-node_modules/materialize-css/dist/css/materialize.css
-node_modules/materialize-css/dist/css/materialize.min.css
-node_modules/materialize-css/dist/index.html
-node_modules/materialize-css/dist/js/materialize.js
-node_modules/materialize-css/dist/js/materialize.min.js
 node_modules/materialize-css/extras/noUiSlider/nouislider.css
 node_modules/materialize-css/extras/noUiSlider/nouislider.js
 node_modules/materialize-css/extras/noUiSlider/nouislider.min.js
