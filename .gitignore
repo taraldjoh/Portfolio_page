@@ -100,7 +100,6 @@ css/main.css
 contact.php
 js/particles.json
 js/main.js
-
 img/work/coming_soon.png
 img/work/areslan2.png
 img/work/areslan.png
@@ -117,7 +116,6 @@ img/work/areslan.gif
 img/work/areslan.png
 img/work/areslan2.png
 img/work/coming_soon.png
-
 js/main.js
 js/particles.json
 contact.php
@@ -128,7 +126,6 @@ img/work/areslan.gif
 img/work/areslan.png
 img/work/areslan2.png
 img/work/coming_soon.png
-
 js/main.js
 js/particles.json
 node_modules/materialize-css/dist/css/materialize.css
