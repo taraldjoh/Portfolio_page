@@ -1,81 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!--Import materialize.css-->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="node_modules/materialize-css/dist/css/materialize.min.css"
-      media="screen,projection"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/materialize-css/dist/css/main.css"
-    />
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Landingpage ---- Particles.json container -->
-    <div id="particles-js">
-      <!-- Loading -->
-      <div class="loader">
-        <div class="progress">
-          <div class="indeterminate"></div>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"
+    media="screen,projection" />
+  <link rel="stylesheet" href="node_modules/materialize-css/dist/css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <header>
+    <!-- Navigation bar  -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <ul class="color-primary right">
+            <li>
+              <a class="btn-small" href="#">Home</a>
+            </li>
+            <li>
+              <a class="btn-small" href="#">About</a>
+            </li>
+            <li>
+              <a class="btn-small" href="#">Projects</a>
+            </li>
+            <li>
+              <a class="btn-small" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <!-- Navigation bar  -->
-      <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-            <ul class="color-primary right">
-              <li>
-                <a
-                  class="primary-light waves-effect waves-light btn-small"
-                  href="#"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  class="primary-light waves-effect waves-light btn-small"
-                  href="#"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  class="primary-light waves-effect waves-light btn-small"
-                  href="#"
-                  >Projects</a
-                >
-              </li>
-              <li>
-                <a
-                  class="primary-light waves-effect waves-light btn-small"
-                  href="#"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Loading -->
+  <!-- <div class="loader">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div> -->
+  <!-- Section: Landing -->
+  <section id="landing">
+    <div id="home">
+      <div class="container">
+        <h1>Tarald Johansen</h1>
+        <h2>The Best</h2>
+        <h3> Programmer </h3>
+        <h4>Ever</h4>
       </div>
     </div>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <script
-      type="text/javascript"
-      src="node_modules/materialize-css/dist/js/materialize.min.js"
-    ></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="/node_modules/materialize-css/dist/js/app.js"></script>
-    <script src="/node_modules/materialize-css/dist/js/particles.js"></script>
-  </body>
+    <!-- Landingpage ---- Particles.json container -->
+    <div id="particles-js">
+    </div>
+  </section>
+
+  <!-- Section: About -->
+  <section id="about">
+    <div class="container">
+      <div class="card item">
+        <h1>Tarald Johansen</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum repudiandae laudantium iste quo molestias?
+        </p>
+      </div>
+      <div class="card item">
+        <h1>Tarald Johansen</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum repudiandae laudantium iste quo molestias?
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/node_modules/materialize-css/dist/js/app.js"></script>
+  <script src="/node_modules/materialize-css/dist/js/particles.js"></script>
+</body>
+
 </html>
