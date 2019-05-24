@@ -23,7 +23,7 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-          <ul class="color-primary right">
+          <ul class="color-secondary right">
             <li>
               <a class="btn-small" href="#home">Home</a>
             </li>
@@ -34,7 +34,7 @@
               <a class="btn-small" href="#projects">Projects</a>
             </li>
             <li>
-              <a class="btn-small" href="#contact">Contact</a>
+              <a class="btn-small modal-trigger" href="#formModal">Contact</a>
             </li>
           </ul>
         </div>
@@ -53,7 +53,7 @@
       <div class="row">
         <div class="col s12">
           <h1>Tarald Johansen</h1>
-          <span class="noSelect color-primary txt-type" data-wait="2000"
+          <span class="noSelect txt-type" data-wait="2000"
             data-words="[&quot;Web Developer&quot;, &quot;Programmer&quot;, &quot;Designer&quot;, &quot;Entrepreneur&quot;]"><span
               class="txt"></span></span>
 
@@ -82,12 +82,15 @@
               <div class="card-content">
                 <p>Welcome to my portfolio page. Here you can have a look at my
                     projects aswell as get insight in what tech is used to build them.
-                    Feel free to reach out to me if you have any questions or just wan't
-                    to talk in the contact form on the bottom of the page.</p>
+                    <br><br>
+                    If you want to reach out, click <a href="#formModal" class="modal-trigger">here</a>!</p>
               </div>
+              
+
+              <!-- Card Icons -->
               <div class="card-action">
-                <i class="fab fa-github icon"></i>
-                <i class="fab fa-linkedin icon"></i>
+                <a href="https://github.com/taraldjoh" target="blank"><i class="fab fa-github icon"></i></a>
+                <a href="https://www.linkedin.com/in/tarald-johansen-62a849122/" target="blank"><i class="fab fa-linkedin icon"></i></a>
               </div>
             </div>
           </div>
@@ -119,10 +122,51 @@
 
   </section>
 
+
+  <!-- MODALS -->
+  <!-- Form Modal -->
+  <div id="formModal" class="modal">
+      <div class="modal-content">
+        <h4 class="center">Contact me!</h4>
+        <div class="row">
+          <form action="" class="col s12">
+            <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+              <input id="formName" type="text" class="validate" data-length="15" maxlength="15" required>
+              <label for="formName">Name</label>
+              <span class="helper-text" data-error="Please enter a name..." ></span>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">mail</i>
+              <input id="email" type="email" class="validate" required>
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="Please enter a valid email..." ></span>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">phone</i>
+              <input id="tel" type="tel" class="validate">
+              <label for="tel">Phone (Optional)</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="textarea" class="materialize-textarea validate" data-length="120" maxlength="120" required></textarea>
+                <label for="textarea">Message</label>
+                <span class="helper-text" data-error="Please enter your message..." ></span>
+            </div>
+            <input class="submitBtn" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close btn-flat">Close</a>
+      </div>
+    </div>
+
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="/node_modules/materialize-css/dist/js/app.js"></script>
+  <script src="/node_modules/materialize-css/dist/js/TypeWriter.js"></script>
   <script src="/node_modules/materialize-css/dist/js/particles.js"></script>
 </body>
 
