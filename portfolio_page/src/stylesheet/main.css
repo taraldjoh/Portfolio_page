@@ -231,7 +231,7 @@ nav {
 
 #home .txt {
     border-right: 0.2rem solid #666;
-    color: var(--primary-secondary);
+    color: #fff;
     font-size: 2rem;
     
 }

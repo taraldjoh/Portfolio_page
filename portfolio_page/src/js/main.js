@@ -1,14 +1,4 @@
 
-// Initialize Materialize
-M.AutoInit();
-
-// Load Particles JS
-particlesJS.load(
-    "particles-js",
-    "node_modules/materialize-css/dist/js/particles.json",
-    () => console.log("Partciles.json loaded...")
-  );
-
 // Page Loader
 // window.addEventListener("load", () => {
 //     setTimeout(() => {
